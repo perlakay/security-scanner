@@ -12,25 +12,6 @@ This tool is designed for security enthusiasts, researchers, and professionals t
 - **Security Analysis**: Checks security headers, SSL/TLS configurations, DNS records, cookies, and more.
 - **Reporting**: Provides a summary with security scores, top issues, and strengths for each target.
 
-## Installation
-
-To use this tool, follow these steps:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/perlydahan/security_scanner.git
-   cd security_scanner
-   ```
-2. **Install Dependencies**:
-   ```bash
-   pip install .
-   ```
-   This installs the tool and its required Python libraries:
-   - `requests`
-   - `dnspython`
-   - `python-whois`
-   - `beautifulsoup4`
-
 ## Usage
 
 Run the tool with targets specified as CompanyName:URL pairs.
